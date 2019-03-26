@@ -4,7 +4,7 @@ import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 function Menu (props) {
     return (
-        <nav className='navbar navbar-default'>
+        <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
             <div className='container'>
                 <div className='navbar-header'>
                     <a className='navbar-brand' href='http://localhost:8080'>
@@ -12,10 +12,10 @@ function Menu (props) {
                     </a>
                 </div>
 
-                <div className='collapse navbar-collapse' id='navbar'>
+                <div id='navbar' className='collapse navbar-collapse'>
                     <ul className='nav navbar-nav'>
-                        <li><a href='http://localhost:8080/todos'><i className='fas dragon'></i>Tarefas</a></li>
-                        <li><a href='http://localhost:8080/about'><i className='fas bullhorn'></i>Sobre</a></li>
+                        <li className='nav-item'><a  className='nav-link' href='#/todos'><i className='fas dragon'></i>Tarefas</a></li>
+                        <li className='nav-item'><a  className='nav-link' href='#/about'><i className='fas bullhorn'></i>Sobre</a></li>
                     </ul>
                 </div>
             </div>
