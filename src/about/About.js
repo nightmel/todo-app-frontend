@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default props => (
-    <div>
-        <h1>Sobre</h1>
-    </div>
-);
+function About (props) {
+    return (
+        <div>
+            <h1>Sobre</h1>
+        </div>
+    );
+};
+
+export default About;
